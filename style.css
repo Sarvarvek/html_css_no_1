@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.section{
+    width: 100%;
+    height: 100vh;
+    background: url('../img/maclooc.webp');
+    top: 0;
+    left: 0;
+}
+
+.nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15%;
+    cursor: pointer;
+    transition: .4s linear;
+}
+
+.nav:hover{
+    background-color: #fff;
+}
+
+.nav:hover .logo{
+    color: blue;
+}
+
+.nav:hover .ul a{
+    color: blue;
+}
+
+.nav .logo{
+    font-size: 35px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.nav .ul a{
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.wrapper{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper h1{
+    font-size: 35px;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.wrapper p{
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.wrapper .btn_a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.btn_a a{
+    text-decoration: none;
+    padding: 8px 19px;
+    border: 1px solid #fff;
+    color: #fff;
+    margin: 0 10px;
+    transition: .3s linear;
+}
+
+.btn_a a:hover{
+    background-color: #fff;
+    color: blue;
+}
